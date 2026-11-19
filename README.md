@@ -46,12 +46,12 @@ This repository documents the architecture, configuration, and troubleshooting l
 
 ---
 
+
 ## Repository Directory
 
-- **[`01-Network-Topology-and-Hardware/`](./01-Network-Topology-and-Hardware)** — Physical cabling layout, cellular-to-bridge WAN setup, and switch uplink documentation.
-- **[`02-Wireless-Bridge-and-AP-Config/`](./02-Wireless-Bridge-and-AP-Config)** — Configuring the Securifi Almond as a wireless range extender, avoiding double-NAT/DHCP conflicts, and AP placement.
-- **[`03-Remote-Management-Remmina/`](./03-Remote-Management-Remmina)** — Setting up centralized remote desktop access (RDP/SSH/VNC) across 4 physical machines using Remmina.
-- **[`04-Troubleshooting-Logs/`](./04-Troubleshooting-Logs)** — Real-world issues encountered (e.g., IP address conflicts, cellular latency, RDP firewall rules) and step-by-step resolutions.
+- **[`01-Network-Topology-and-Hardware/`](./01-Network-Topology-and-Hardware)** — Physical cabling layout, cellular-to-bridge WAN setup, unmanaged switches, and APC UPS power redundancy.
+- **[`02-Compute-Nodes-and-OS-Fleet/`](./02-Compute-Nodes-and-OS-Fleet)** — Hardware asset inventory and OS architecture across all 4 physical machines (Windows 11 Pro, Linux Mint 64-bit, legacy Linux Mint 32-bit, and Dell Latitude).
+- **[`03-Troubleshooting-Logs/`](./03-Troubleshooting-Logs)** — Root-cause analysis (RCA) logs documenting legacy 32-bit OS integration, manual dependency resolution, and Remmina remote access setup.
 
 ---
 
